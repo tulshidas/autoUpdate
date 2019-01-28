@@ -1,0 +1,21 @@
+{
+    "name": "electronautoupdate",
+    "version": "0.1.1",
+    "author": "tulshidas",
+    "homepage": "./",
+    "description": "An example of an autoupdating electron app",
+    "repository": "https://github.com/tulshidas/autoUpdate",
+    "main": "electron.js",
+    "dependencies": {
+        "electron-updater": "^2.18.2"
+    },
+    "scripts": {
+        "build": "build --win",
+        "ship": "build --win -p always",
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^1.7.5",
+        "electron-builder": "^19.20.1"
+    }
+}
